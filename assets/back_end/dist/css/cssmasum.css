@@ -1,0 +1,106 @@
+.layout-boxed html,
+.layout-boxed body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.halaman-login {
+    /* background: url('../img/gambar2.png');
+    background-size: 2%; */
+    background: #FFFEFE;
+}
+
+.login-box,
+.register-box {
+    width: 360px;
+    margin: 10% auto;
+}
+
+@media (max-width: 768px) {
+    .login-box,
+    .register-box {
+        width: 90%;
+        margin-top: 130px;
+    }
+}
+
+.login-box-body,
+.register-box-body {
+    background: #ffff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+
+.login-box-body .form-control-feedback,
+.register-box-body .form-control-feedback {
+    color: #777;
+}
+
+.login-box-msg,
+.register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.login-logo,
+.register-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.login-logo a,
+.register-logo a {
+    color: #444;
+}
+
+.login-box-body,
+.register-box-body {
+    background: transparent;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+
+.login-box-body .form-control-feedback,
+.register-box-body .form-control-feedback {
+    color: #777;
+}
+
+.login-box-msg,
+.register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.captcha {
+    margin-left: 10px;
+}
+
+.showbtn {
+    overflow: hidden;
+    right: 15px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .captcha {
+        margin-left: 50px;
+    }
+}
+
+.warna {
+    background-color: #f7f7f7;
+}
